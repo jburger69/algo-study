@@ -1,0 +1,22 @@
+{
+  "name": "algos",
+  "version": "1.0.0",
+  "description": "Here is a repo of all the algos I currently worked on or am working on. I try to do atleast 1 hour of algo study a day. I keep the algos in a repo so when I need a refresher I can come back to them.",
+  "main": "bubbleSort.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jburger69/algo-study.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jburger69/algo-study/issues"
+  },
+  "homepage": "https://github.com/jburger69/algo-study#readme"
+}
