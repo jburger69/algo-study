@@ -33,3 +33,16 @@ const findSolution = (target) => {
 }
 
 console.log(findSolution(24));
+
+//4
+// function exercises: Write a function min that takes in two args and returns the mininimum.
+
+const min = (arg1, arg2) => {
+    let mininimum = arg1;
+    if ( mininimum > arg2) {
+        mininimum = arg2;
+    }
+    return mininimum;
+};
+
+console.log(min(100, 20000));
