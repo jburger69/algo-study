@@ -27,7 +27,7 @@
 // n = 1 => stop
 
 // n / 2 if n is even
-// 3 * n + 1 if n is odd
+// 3 * n + 1 if n is odd 
 
 n = 3;
 
