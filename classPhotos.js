@@ -2,6 +2,7 @@ redShirtHeights = [5, 8, 1, 3, 4]
 blueShirtHeights = [5, 8, 1, 3, 4]
 
 function classPhotos(redShirtHeights, blueShirtHeights) {
+    // Sort arrays from largest to smallest.
     redShirtHeights.sort((a,b) => b - a);
     console.log(redShirtHeights)
     blueShirtHeights.sort((a,b) => b - a);
@@ -19,4 +20,4 @@ function classPhotos(redShirtHeights, blueShirtHeights) {
     return true;
 }
 
-classPhotos(redShirtHeights, blueShirtHeights)
+console.log(classPhotos(redShirtHeights, blueShirtHeights));
