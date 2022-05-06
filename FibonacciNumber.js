@@ -15,3 +15,19 @@
 // O(n) - time
 // O(1) - space
 
+const fibonacci = (n) => {
+    if ( n < 2 ) {
+        return n;
+    }
+    let prev = 0;
+    let curr = 1;
+    for ( let i = 2; i <= n; i++ ) {
+        let next = curr + prev;
+        prev = curr;
+        curr = next;
+    }
+    return curr;
+};
+
+console.log(fibonacci(3));
+console.log(fibonacci(4));
