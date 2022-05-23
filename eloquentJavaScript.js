@@ -66,3 +66,5 @@ function countBs(string) {
 
 console.log(countBs("AAFFFFBBDDDDUUUNNNEBBSSJJJBSDBJSDFIIRBBC"));
 console.log(countChar("sdgsdgsdkkrtythyhgbkakksdfkkdfgerlak", "k"));
+
+ 
