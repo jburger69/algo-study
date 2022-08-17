@@ -75,6 +75,29 @@ class SinglyLinkedList {
         return current;
     }
 
+    // Shift method
+
+    // if there are no nodes, return undefined
+
+    // store the current head property in a variable
+
+    // set the head property to be the current heads next property
+
+    // decrement the length by 1
+
+    // return the value of the node removed
+
+    shift() {
+        if(!this.head) return undefined;
+        var currentHead = this.head;
+        this.head = currentHead.next;
+        this.length--;
+        if(this.length === 0) {
+            this.tail = null;
+        }
+        return currentHead;
+    }
+
     
 }
 
@@ -85,9 +108,11 @@ list.push("GoodBye")
 console.log(list)
 list.push("!")
 console.log(list)
-list.pop()
-console.log(list)
-list.pop()
-console.log(list)
-list.pop()
+// list.pop()
+// console.log(list)
+// list.pop()
+// console.log(list)
+// list.pop()
+// console.log(list)
+list.shift()
 console.log(list)
