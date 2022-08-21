@@ -14,7 +14,7 @@ class SinglyLinkedList {
         this.length = 0;
     }
 
-    // Push method
+    // Push method -- Place new node at the end of the linked list
 
     // This function should accept a value
 
@@ -42,7 +42,7 @@ class SinglyLinkedList {
         return this;
     }
 
-    // Pop method
+    // Pop method -- Remove node from the end of the list
 
     // if there are no nodes in the list, return undefined
 
@@ -75,7 +75,7 @@ class SinglyLinkedList {
         return current;
     }
 
-    // Shift method
+    // Shift method -- Remove node from beginning of the list
 
     // if there are no nodes, return undefined
 
@@ -98,7 +98,7 @@ class SinglyLinkedList {
         return currentHead;
     }
 
-    // Unshift method
+    // Unshift method -- Add node to beginning of list
 
     // This function should accept a value
 
@@ -127,7 +127,7 @@ class SinglyLinkedList {
         return this;
     }
 
-    // Get method
+    // Get method -- Grab node at specific index in list
 
     // This function should accept an index
 
